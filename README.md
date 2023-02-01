@@ -7,4 +7,5 @@ You can add their expenses.
 Employees can login and add 4 predetermined expense(Flight,Train,Car & Medical).
 The Client can then view a summary i.e is simply an  addition of all 4 expenses entered.
 
-The code is not at all dynamic and uses global variables to share data accross activities
+The code is not at all dynamic and uses global variables to share data accross activities.
+The main folder contains the screenshot pdf and the apk file named as 'app-debug.apk'.
