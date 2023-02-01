@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Expense_Login"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="100"
+    android:background="@drawable/gradient_background"
+    android:layout_gravity="center">
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:entries="@array/Employee_list"
+        android:id="@+id/LOGIN_employee_name_spinner"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    </Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Expense_Login_hint_password"
+        android:id="@+id/LOGIN_password"
+        android:layout_weight="2"
+        android:gravity="center"
+        >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LOGIN_submit"
+        android:text="Submit"
+        android:layout_weight="3"
+        android:backgroundTint="@color/button">
+
+    </Button>
+
+</LinearLayout>

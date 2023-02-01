@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sunder_Sharma_Intern_Task_VT</string>\
+    <string name="add_expense">Add Expense</string>
+    <string name="get_summary">Get Summary</string>
+    <string name="Expense_Login_hint_username">Enter your Username (Employee1/2/3/4/5)</string>
+    <string name="Expense_Login_hint_password">Enter your Password (default=1)</string>
+
+    <string-array name="Employee_list">
+
+        <item>Employee 1</item>
+        <item>Employee 2</item>
+        <item>Employee 3</item>
+        <item>Employee 4</item>
+        <item>Employee 5</item>
+
+    </string-array>
+
+    <string-array name="ENTRY_expense_type">
+
+        <item>Train</item>
+        <item>Flight</item>
+        <item>Medical</item>
+        <item>Other</item>
+
+    </string-array>
+
+</resources>

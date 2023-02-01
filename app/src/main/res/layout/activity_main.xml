@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="100"
+    android:background="@drawable/gradient_background">
+
+    <Button
+        android:id="@+id/add_expense"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_weight="5"
+        android:text="@string/add_expense"
+        android:backgroundTint="@color/button"/>
+
+    <Button
+        android:id="@+id/get_summary"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="@string/get_summary"
+        android:backgroundTint="@color/button"/>
+
+
+</LinearLayout>
